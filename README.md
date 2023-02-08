@@ -1,6 +1,6 @@
 # Игра Виселица
 
-![Image alt](https://github.com/Webfre/nft-market/blob/main/src/assets/nftprev.png)
+![Image alt](https://github.com/Webfre/words-play/blob/main/src/assets/words.png)
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=webfre&label=Profile%20views&color=0e75b6&style=flat" alt="webfre" /> </p>
 
@@ -28,7 +28,7 @@
 Для того, чтобы установить проект локально, Вам потребуется:
 
 ```sh
-git clone
+git clone https://github.com/Webfre/words-play.git
 ```
 
 Start the project:
