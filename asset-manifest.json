@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/words-play/static/css/main.ead8c839.css",
+    "main.js": "/words-play/static/js/main.75db539f.js",
+    "index.html": "/words-play/index.html",
+    "main.ead8c839.css.map": "/words-play/static/css/main.ead8c839.css.map",
+    "main.75db539f.js.map": "/words-play/static/js/main.75db539f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ead8c839.css",
+    "static/js/main.75db539f.js"
+  ]
+}
