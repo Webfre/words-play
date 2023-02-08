@@ -1,0 +1,162 @@
+/* HangmanDrawing стили */
+.hangman {
+  position: relative;
+}
+
+.head {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 10px solid black;
+  position: absolute;
+  top: 50px;
+  right: -30px;
+}
+
+.body {
+  width: 10px;
+  height: 100px;
+  background: black;
+  position: absolute;
+  top: 120px;
+  right: 0;
+}
+
+.right-arm {
+  width: 100px;
+  height: 10px;
+  background: black;
+  position: absolute;
+  top: 150px;
+  right: -100px;
+  rotate: -30deg;
+  transform-origin: left bottom;
+}
+
+.left-arm {
+  width: 100px;
+  height: 10px;
+  background: black;
+  position: absolute;
+  top: 150px;
+  right: 10px;
+  rotate: 30deg;
+  transform-origin: right bottom;
+}
+
+.right-leg {
+  width: 100px;
+  height: 10px;
+  background: black;
+  position: absolute;
+  top: 210px;
+  right: -90px;
+  rotate: 60deg;
+  transform-origin: left bottom;
+}
+
+.left-leg {
+  width: 100px;
+  height: 10px;
+  background: black;
+  position: absolute;
+  top: 210px;
+  right: 0px;
+  rotate: -60deg;
+  transform-origin: right bottom;
+}
+
+.linear__1 {
+  height: 50px;
+  width: 10px;
+  background: black;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+.linear__2 {
+  height: 10px;
+  width: 200px;
+  background: black;
+  margin-left: 120px;
+}
+
+.linear__3 {
+  height: 400px;
+  width: 10px;
+  background: black;
+  margin-left: 120px;
+}
+
+.linear__4 {
+  height: 10px;
+  width: 250px;
+  background: black;
+}
+
+/* HangmanWord стили */
+
+.word {
+  display: flex;
+  gap: 0.5em;
+  font-size: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: brown;
+}
+
+.text {
+  border-bottom: 0.1em solid black;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/* Keyboard стили */
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+  gap: 0.5rem;
+}
+
+.keyup {
+  width: 100%;
+  border: 3px solid black;
+  font-size: 2rem;
+  text-transform: uppercase;
+  background: none;
+  padding: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  transition: all 0.2s ease-in-out;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.keyup.active {
+  background-color: rgba(28, 147, 190, 0.881);
+}
+
+.keyup.inactive {
+  opacity: 0.3;
+}
+
+.keyup:hover:not(:disabled),
+.keyup:focus:not(:disabled) {
+  background-color: rgb(104, 212, 251);
+}
