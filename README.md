@@ -8,7 +8,7 @@
 
 ## Предварительный просмотр
 
-<a href="https://webfre.github.io/words-play/" target="_blank">Follow the link 👁</a>
+<a href="https://webfre.github.io/words-play/" target="_blank">Перейти 👁</a>
 
 ## Технологии
 
