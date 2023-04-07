@@ -34,6 +34,7 @@ git clone https://github.com/Webfre/words-play.git
 Start the project:
 
 ```sh
+npm install
 cd words-play
 npm start or yarn start
 ```
